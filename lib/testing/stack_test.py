@@ -56,6 +56,7 @@ class TestStack:
         assert(stk.full())
         assert(stk.size() == 1)
         assert(stk.pop() == 1)
+        
 
     def test_search(self):
         '''Test Stack search() method. How far is the element in the stack? '''
